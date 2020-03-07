@@ -91,3 +91,44 @@ main {
 }
 
 /* Page-specific */
+
+/*Start of Product Specs Styling */
+#tbl
+{
+    background-color: #792359; 
+    border-bottom: outset 5px;
+    border-color: #d72483;
+}
+
+.tdTblR
+{
+    border-top: solid 5px;
+    border-left: inset 5px;
+    border-right: solid 5px;
+    border-color: #d72483;
+    padding: 2px 5px 2px 2px;
+}
+
+.tdTbl, .tdTblL
+{
+    border-top: solid 5px;
+    border-right: outset 5px;
+    border-color: #d72483;
+    padding: 2px 5px 2px 2px;
+}
+
+#tdad
+{
+    border-left: inset 5px;
+    border-right: solid 5px;
+    border-color: #d72483;
+}
+
+.tdTblR:hover, .tdTblL:hover, .tdTbl:hover
+{
+    background-color: #fd3e81;
+}
+
+
+
+/*End of Product Specs Styling*/
