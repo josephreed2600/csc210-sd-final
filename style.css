@@ -47,7 +47,7 @@ a.plain {
 body {
     background-color: #41292c;
     color: #eeeeee;
-    font-family: 'Arial', sans-serif; /* TODO */
+    font-family: 'Open Sans', 'Arial', sans-serif; /* TODO */
 }
 
 header, #nav, #nav > ul {
