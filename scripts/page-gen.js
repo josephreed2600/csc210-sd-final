@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', (evt) => {
+    document.getElementsByTagName('head')[0].innerHTML +=
+       `<link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="logo/logo.png" rel="icon" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width" />`;
     document.getElementById('header').innerHTML =
         `<nav id="nav">
             <ul class="plain">
