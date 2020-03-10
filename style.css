@@ -125,10 +125,18 @@ main {
 }
 
 .tdTblR:hover, .tdTblL:hover, .tdTbl:hover
-{
+{   
     background-color: #fd3e81;
 }
 
+#tbl
+{
+    margin-left: 30%;
+}
 
+#pSpecs
+{
+    margin-left: 45%; 
+}
 
 /*End of Product Specs Styling*/
