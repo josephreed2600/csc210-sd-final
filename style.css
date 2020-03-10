@@ -92,7 +92,30 @@ main {
 
 /* Page-specific */
 
-/*Start of Product Specs Styling */
+/* Start of Home styling */
+#introducing-rosie {
+    display: block;
+    text-align: center;
+    font-weight: normal;
+    line-height: 2.3em;
+}
+
+#introducing {
+    font-size: 0.8em;
+}
+
+#rosie {
+    font-size: 1.7em;
+}
+
+#side-scrolling-image-container {
+    width: 100%;
+    background: red;
+}
+
+/* End of Home styling */
+
+/* Start of Product Specs styling */
 #tbl
 {
     background-color: #792359; 
