@@ -4,7 +4,7 @@
 
 /* Overrides */
 html {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     margin: 0;
     border: 0;
@@ -93,24 +93,51 @@ main {
 /* Page-specific */
 
 /* Start of Home styling */
-#introducing-rosie {
+#index #introducing-rosie {
     display: block;
     text-align: center;
     font-weight: normal;
     line-height: 2.3em;
 }
 
-#introducing {
+#index #introducing {
     font-size: 0.8em;
 }
 
-#rosie {
-    font-size: 1.7em;
+#index #rosie {
+    font-size: 1.9em;
 }
 
-#side-scrolling-image-container {
+#index #side-scrolling-image-container {
     width: 100%;
-    background: red;
+    height: 30em;
+    position: relative;
+    overflow: hidden;
+}
+
+#index #current-slide-container, #next-slide-container {
+    height: 100%;
+    width: 100%;
+    transition-property: left;
+    background-position: center;
+    background-size: cover;
+}
+
+#index #current-slide-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#index #next-slide-container {
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+#index #light-description {
+    display: block;
+    text-align: center;
 }
 
 /* End of Home styling */
