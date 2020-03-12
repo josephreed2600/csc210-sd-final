@@ -90,9 +90,23 @@ main {
     text-align: center;
 }
 
+a {
+    color: #fd3e81;
+    text-decoration: none;
+}
+
 /* Page-specific */
 
 /* Start of Home styling */
+#index {
+    font-size: 1.2em;
+}
+
+#index main {
+    margin: auto;
+    max-width: 60em;
+}
+
 #index #introducing-rosie {
     display: block;
     text-align: center;
@@ -113,6 +127,7 @@ main {
     height: 30em;
     position: relative;
     overflow: hidden;
+    margin: 3em 0;
 }
 
 #index #current-slide-container, #next-slide-container {
@@ -121,6 +136,7 @@ main {
     transition-property: left;
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #index #current-slide-container {
@@ -135,9 +151,35 @@ main {
     left: 100%;
 }
 
+#index #next-slide-container.render, #index #current-slide-container.render {
+    background-size: contain;
+    background-position: right;
+}
+
 #index #light-description {
     display: block;
     text-align: center;
+}
+
+#index #sleek {
+    max-width: 35%;
+    padding-left: 1em;
+    position: absolute;
+    left: 2%;
+    font-size: 1.2em;
+}
+
+#index #hotel {
+    max-width: 40%;
+    padding-left: 1em;
+    position: absolute;
+    left: 2%;
+    font-size: 1.2em;
+}
+
+#index .buzzy-content {
+    padding: 0.75em 2em;
+    line-height: 1.5em;
 }
 
 /* End of Home styling */
