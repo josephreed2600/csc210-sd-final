@@ -184,6 +184,78 @@ a {
 
 /* End of Home styling */
 
+/*Start of About Us Styling */
+
+#about-us #para1
+{
+border-top: solid 5px;
+border-left: inset 5px;
+border-right: solid 5px;
+border-bottom: outset 5px;
+border-color: #d72483;
+padding: 2px 5px 2px 2px;
+width: 50%;
+text-align: center;
+margin: auto;
+}
+
+#about-us #Title
+{
+    text-align: center;
+}
+
+#about-us #Logo
+{
+    display: block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+	width: 15%;
+}
+
+#about-us #graphCanvas {
+    color: #EAF0CE;
+    background-color: #41292c;
+    padding: 10px 10px 10px 10px;
+}
+
+#about-us canvas {
+    max-height: 18em;
+    width: 100%;
+}
+
+#about-us #sales {
+    text-align: center;
+}
+
+#about-us #graphBorder {
+    border-top: solid 5px;
+    border-left: inset 5px;
+    border-right: solid 5px;
+    border-bottom: outset 5px;
+    border-color: #d72483;
+    width: 87%;
+    margin: auto;
+}
+
+#about-us #graphText {
+    float: left;
+    position: absolute;
+    left: -66px;
+    bottom: 240px;
+    transform: rotate(-90deg);
+    padding: 5px;
+}
+
+#about-us .graphBorder {
+    border-top: solid 5px;
+    border-left: inset 5px;
+    border-right: solid 5px;
+    border-bottom: outset 5px;
+    border-color: #d72483;
+}
+/*End of "About Us" Styling */
+
 /* Start of Product Specs styling */
 #specs #tbl
 {
