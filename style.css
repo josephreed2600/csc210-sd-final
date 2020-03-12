@@ -185,14 +185,14 @@ a {
 /* End of Home styling */
 
 /* Start of Product Specs styling */
-#tbl
+#specs #tbl
 {
     background-color: #792359; 
     border-bottom: outset 5px;
     border-color: #d72483;
 }
 
-.tdTblR
+#specs .tdTblR
 {
     border-top: solid 5px;
     border-left: inset 5px;
@@ -201,7 +201,7 @@ a {
     padding: 2px 5px 2px 2px;
 }
 
-.tdTbl, .tdTblL
+#specs .tdTbl, #specs .tdTblL
 {
     border-top: solid 5px;
     border-right: outset 5px;
@@ -209,29 +209,30 @@ a {
     padding: 2px 5px 2px 2px;
 }
 
-#tdad
+#specs #tdad
 {
     border-left: inset 5px;
     border-right: solid 5px;
     border-color: #d72483;
 }
 
-.tdTblR:hover, .tdTblL:hover, .tdTbl:hover
+#specs .tdTblR:hover, #specs .tdTblL:hover, #specs .tdTbl:hover
 {   
     background-color: #fd3e81;
 }
 
-#tbl
+#specs #tbl
 {
-    margin-left: 30%;
+    /* margin-left: 30%; */
+    margin: auto;
 }
 
-#pSpecs
+#specs #pSpecs
 {
     margin-left: 45%; 
 }
 
-#aboutSpecs
+#specs #aboutSpecs
 {
     margin: 0px 10% 30px 10%;
 }
@@ -253,7 +254,7 @@ a {
 #contact-us #heading{
     text-align: center;
     display: inline-block;
-    font-family: 'Righteous';
+    /* font-family: 'Righteous'; */
 }
 #contact-us #icon{
     position: relative;
